@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+  <!-- Metas -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="keywords" content="Prueba tecnica Alumnus" />
+  <meta name="description" content="Alumnus" />
+  <meta name="author" content="Wilmer Henao" />
+
+  <!-- Title  -->
+  <title>Alumnus</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/FAVICON-ALUMNUS-06.png" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
+
+  <!-- Plugins -->
+  <link rel="stylesheet" href="css/plugins.css" />
+
+  <!-- Core Style Css -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+  <style>
+    .loading-indicator {
+      display: none;
+      border: 4px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      border-top: 4px solid #000;
+      width: 20px;
+      height: 20px;
+      animation: spin 1s linear infinite;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .loading {
+      position: relative;
+      width: auto;
+    }
+
+    .loading:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: auto;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.5);
+      z-index: 1;
+    }
+
+    @keyframes pulse {
+      0% {
+        background-color: rgba(226, 226, 226, 0.05);
+      }
+
+      50% {
+        background-color: rgba(226, 226, 226, 0.1);
+      }
+
+      100% {
+        background-color: rgba(226, 226, 226, 0.05);
+      }
+    }
+
+    @keyframes bounce {
+      0% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-10px);
+      }
+
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+    @media (min-width: 992px) {
+      .icon {
+        display: inline !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Start Loading -->
+
+  <div class="loading">
+    <div class="text-center middle">
+      <div class="lds-ellipsis">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Loading -->
+
+
+  <!-- Start Navbar -->
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+
+      <!-- Logo -->
+      <a class="logo" href="#">
+        <img src="img/LOGO-ALUMNUS-05.png" alt="logo">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="icon-bar"><i class="fas fa-bars"></i></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" data-scroll-nav="0">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-scroll-nav="1">Course</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-scroll-nav="2">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- End Navbar -->
+
+
+  <!-- Start Header -->
+
+  <header class="header valign bg-img" data-scroll-index="0" data-overlay-dark="10"
+    data-stellar-background-ratio="0.5">
+
+    <!-- particles -->
+    <div id="particles-js"></div>
+
+    <div class="container">
+      <div class="text-center caption mt-30">
+        <h1 style="font-size: xxx-large!important;">
+          <strong>
+            Student Portal
+          </strong>
+        </h1>
+        <br>
+        <h1 class="cd-headline clip" style="font-size: 1.2rem;">
+          <span class="cd-words-wrapper">
+            <b class="is-visible">Math</b>
+            <b>Sciences</b>
+            <b>Geometry</b>
+            <b>Geography</b>
+            <b>Chemistry</b>
+          </span>
+        </h1><br>
+        <div class="row">
+          <div class="offset-md-1 col-md-10 offset-lg-2 col-lg-8">
+            <p>Your courses are waiting to be completed! Take advantage of this opportunity, don't waste time and continue with your studies. Each lesson is one step closer to your goals. Remember that knowledge is power, and each topic you complete brings you closer to achieving your objectives. Keep moving forward and show what you are capable of!
+            </p>
+          </div>
+        </div>
+        <a class="butn butn-light mt-30" data-scroll-nav="1" href="#" data-scroll-nav="1"><span>Course...</span></a>
+      </div>
+    </div>
+
+    <div class="curve curve-bottom curve-center"></div>
+  </header>
+
+  <section class="hero" data-scroll-index="1">
+    <div class="section-padding pos-re">
+      <div class="container">
+        <div class="row">
+
+          <div class="feat-item mb-md50 col-lg-4">
+            <div class="text-center">
+              <span class="icon icon-basic-calculator"></span>
+              <h5>Math</h5>
+              <h6>🧮</h6>
+              <a class="butn butn-dark see-details">
+                <span>See Details</span>
+              </a>
+              <p class="details-text" style="display: none;">Explore the fascinating world of mathematics, from basic concepts to complex equations and problems. This course will help you improve your calculation, logical reasoning, and problem-solving skills by providing a solid foundation in arithmetic, algebra, and analysis.</p>
+            </div>
+          </div>
+
+          <div class="feat-item active mb-md50 col-lg-4">
+            <div class="text-center">
+              <span class="icon icon-basic-book"></span>
+              <h5>Sciences</h5>
+              <h6>⚛️</h6>
+              <a class="butn butn-dark see-details">
+                <span>See Details</span>
+              </a>
+              <p class="details-text" style="display: none;">Discover the fundamental principles of science, covering areas such as physics, biology and astronomy. This course is designed to spark your curiosity about the workings of the universe, natural laws and the phenomena that surround us, promoting critical thinking and research.</p>
+            </div>
+          </div>
+
+          <div class="feat-item col-lg-4">
+            <div class="text-center">
+              <span class="icon icon-basic-pencil-ruler"></span>
+              <h5>Geometry</h5>
+              <h6>◽</h6>
+              <a class="butn butn-dark see-details">
+                <span>See Details</span>
+              </a>
+              <p class="details-text" style="display: none;">Dive into the study of shapes, figures and spaces. Learn about angles, symmetry, theorems and the relationship between different geometric figures. This course is ideal for developing spatial and visual skills, applying practical concepts to the world around you.</p>
+            </div>
+          </div>
+
+          <div class="feat-item col-lg-4">
+            <div class="text-center">
+              <span class="icon icon-basic-world"></span>
+              <h5>Geography</h5>
+              <h6>🗺️</h6>
+              <a class="butn butn-dark see-details">
+                <span>See Details</span>
+              </a>
+              <p class="details-text" style="display: none;">Get to know the planet, its continents, countries, cultures and climates. This course explores the physical and human characteristics of the world, helping you to better understand the relationship between humans and their environment, as well as the challenges and opportunities of our globalized world.</p>
+            </div>
+          </div>
+          <div class="feat-item col-lg-4">
+            <div class="text-center">
+              <span class="icon icon-basic-magnifier"></span>
+              <h5>Chemistry</h5>
+              <h6>🧪</h6>
+              <a class="butn butn-dark see-details">
+                <span>See Details</span>
+              </a>
+              <p class="details-text" style="display: none;">Learn about the composition, structure, and properties of matter. In this course, you will discover how elements interact and form compounds, chemical reactions, and the laws that govern the behavior of matter, opening the door to a world of scientific experiments and discoveries.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="curve curve-gray-b curve-bottom"></div>
+    </div>
+  </section>
+
+  <footer class="text-center pos-re" data-scroll-index="2">
+    <div class="container">
+      <!-- Logo -->
+      <a class="logo" href="#">
+        <img src="img/LOGO-ALUMNUS-05.png" alt="logo">
+      </a>
+
+      <p>Contact Info</p>
+      <p>letstalk@alumnuslms.com</p>
+      
+      <p>(+57) 3052537867</p>
+
+      <p>&copy; <span id="date">2024</span> Alumnus. All Rights Reserved.</p>
+    </div>
+
+    <div class="curve curve-top curve-center"></div>
+  </footer>
+
+  <!-- bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- scrollIt -->
+  <script src="js/scrollIt.min.js"></script>
+
+  <!-- animated.headline -->
+  <script src="js/animated.headline.js"></script>
+
+  <!-- particles.min js -->
+  <script src="js/particles.min.js"></script>
+
+  <!-- app js -->
+  <script src="js/app.js"></script>
+
+  <!-- custom scripts -->
+  <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
